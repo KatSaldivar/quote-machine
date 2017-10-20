@@ -1,0 +1,53 @@
+body {
+    background-color: #ff99cc;
+  font-family: "baloo bhaina";
+}
+
+.box {
+  background-color: white ;
+  margin: 100px auto auto auto;
+  width: 800px;
+  padding: 100px;
+  border-radius: 5%;
+}
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+#outer{
+    width:100%;
+    text-align: center;
+}
+.inner{
+  text-align: center;
+  display: inline-block;
+}
+.inner button:hover {
+    opacity: 0.7;
+    cursor:pointer;
+}
+button{
+  padding: 0px 10px 0px 10px;
+  border-radius: 50px;
+  font-family: "baloo bhaina";
+  margin: 20px 20px 20px 20px;
+  font-size: 12px;
+}
+.divider{
+  width:40px;
+    height:auto;
+    display:inline-block;
+}
+@media (max-device-width: 768px) {
+  h1 {
+    font-size: 50pt;
+  }
+  .author{
+    font-size: 30pt;
+  }
+  .btn{
+    font-size: 30pt;
+  }
+}
